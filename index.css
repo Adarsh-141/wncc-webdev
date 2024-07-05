@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #e1d1d1;
+}
+#header-item{
+    background-color: rgb(73, 69, 69);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#sport-name{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+}
+#overview{
+    display: flex;
+    align-items: center;
+}
+#overview section{
+    margin-left:  20px;
+    font-size:large;
+    margin-bottom: 30px;
+}
+#overview img{
+    
+    width:50vw;
+}
+#rules img{
+    width:50vw;
+    margin-top: 5px;
+}
+
+#rules{
+    display: flex;
+    align-items:center;
+   
+}
+#rules section{
+    margin-left: 30px;
+    font-size: large;
+
+}
+#highlights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#highlights img{
+    width: 50vw;
+}
+#get-started{
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
