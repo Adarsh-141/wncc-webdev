@@ -4,6 +4,7 @@
 }
 main{
     background-color: #e1d1d1;
+ 
 }
 #header-item{
     background-color: rgb(73, 69, 69);
@@ -62,6 +63,67 @@ a{
     margin-left: 20px;
 }
 footer{
+    
     background-color: black;
     color: white;
+    text-align: center;
 }
+#useful-links{
+    text-align: center;
+}
+#copyright{
+    text-align: right;
+}
+#quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#quiz-interface{
+    height:60vh;
+    width:40vw;
+    border:5px solid  black;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction:Column;
+    position: relative;
+}
+#question{
+    width:100%;
+    font-size:25px;
+    display:flex;
+   
+     
+}
+ #buttons{
+    display: flex;
+    flex-direction: column;
+   justify-content: left;
+   
+ }
+ .options{
+    font-size:2em;
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+ }
+.option{
+    margin-left:4px;
+    width:25px;
+    height:25px;   
+}
+#submit{
+/*      
+    height:100% ; */
+    width:100% ;
+    font-size:2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     
+}
+
+
+ 
